@@ -21,3 +21,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+! Conceptos Clave
+
+* Generalización (Herencia):
+- La clase base Empleado define atributos y métodos comunes.
+- Las clases derivadas Gerente y Programador heredan estos atributos y métodos, y pueden añadir sus propios atributos y métodos o sobrescribir los existentes.
+
+? Uso de super():
+- Permite llamar a métodos de la clase base desde la clase derivada.
+- Facilita la extensión de métodos heredados.
+"""

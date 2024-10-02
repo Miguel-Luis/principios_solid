@@ -22,3 +22,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+! Conceptos Clave:
+
+* Asociación:
+- Es una relación donde una clase utiliza a otra como parte de su funcionalidad, pero ambas clases existen independientemente.
+- En este ejemplo, Persona y Mascota pueden existir por separado, pero se relacionan mediante la adopción.
+
+? Agregación vs. Composición:
+- Agregación: Las instancias asociadas pueden existir independientemente (asociación débil).
+- Composición: Las instancias asociadas dependen una de la otra (asociación fuerte).
+En nuestro ejemplo, la relación es de agregación, ya que las mascotas pueden existir sin la persona y viceversa.
+"""

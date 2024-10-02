@@ -23,3 +23,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""
+! Conceptos Clave
+
+* Composición:
+- Es una relación fuerte donde el todo (coche) es responsable de la existencia de las partes (motor).
+- Si el coche es destruido, el motor también lo es.
+- Las partes no pueden existir independientemente del todo.
+
+? Encapsulamiento:
+- Al declarar __motor como atributo privado, evitamos que sea accedido o manipulado desde fuera de la clase Coche.
+
+TODO: Ciclo de Vida Compartido:
+- El motor es creado y destruido junto con el coche.
+"""
