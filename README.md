@@ -23,6 +23,8 @@ Este proyecto tiene como objetivo enseñar los conceptos fundamentales de la Pro
 - **b_agregacion**: Ejemplo de la relación de agregación, donde una clase incluye instancias de otra.
 - **c_composicion**: Relación de composición donde una clase controla completamente el ciclo de vida de otra.
 - **d_generalizacion**: Ejemplo de herencia y polimorfismo.
+- **e_dependencia**: Ejemplo de relación de dependencia, donde una clase utiliza otra sin poseerla.
+- **f_realizacion**: Implementación de la relación de realización, donde una clase concreta implementa una interfaz o especificación.
 
 ### 🔹 3. Principios SOLID
 - **a_responsabilidad_unica**: Aplicación del principio de responsabilidad única.
@@ -67,6 +69,7 @@ Aquí te presentamos una lista de las extensiones recomendadas que optimizarán 
 | **Python Debugger**      | Proporciona herramientas avanzadas para la depuración de código Python, permitiendo puntos de interrupción, inspección de variables y más. |
 | **Error Lens**           | Resalta los errores y advertencias directamente en el editor, proporcionando un feedback inmediato mientras escribes código. |
 | **Path Intellisense**    | Proporciona autocompletado inteligente para rutas de archivos y carpetas dentro de tu proyecto. |
+| **Better Comments**    | Extensión de VS Code que mejora la legibilidad colorizando comentarios con códigos especiales. |
 
 ### Instalación
 
