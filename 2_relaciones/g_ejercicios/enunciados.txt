@@ -1,0 +1,60 @@
+Ejercicio 1: Asociación
+
+Enunciado:
+
+Crea un sistema para modelar una biblioteca donde varios libros pueden ser prestados a miembros. Cada miembro puede tomar prestados múltiples libros, y cada libro puede ser prestado a múltiples miembros a lo largo del tiempo.
+
+--------------------------------------------------------------------------------------------------------------
+
+Ejercicio 2: Agregación
+
+Enunciado:
+
+Diseña un sistema universitario donde un Departamento tiene múltiples Profesores. Un profesor pertenece a un departamento, pero si el departamento es eliminado, los profesores continúan existiendo.
+
+--------------------------------------------------------------------------------------------------------------
+
+Ejercicio 3: Composición
+
+Enunciado:
+
+Desarrolla un programa para representar un Lago que está compuesto por Peces. Si el lago es destruido, los peces también son destruidos.
+
+--------------------------------------------------------------------------------------------------------------
+
+Ejercicio 4: Generalización
+
+Enunciado:
+
+Crea clases para representar diferentes tipos de Animales: Perros y Gatos. Ambos son animales pero tienen atributos y métodos diferentes.
+
+--------------------------------------------------------------------------------------------------------------
+
+Ejercicio 5: Dependencia
+
+Enunciado:
+
+Implementa una clase GeneradorDeInformes que utiliza una clase ConexionBaseDeDatos para obtener datos y generar informes.
+
+--------------------------------------------------------------------------------------------------------------
+
+Ejercicio 6: Realización
+
+Enunciado:
+
+Define una interfaz MetodoPago con un método pagar(cantidad). Implementa dos clases PagoTarjetaCredito y PagoPaypal que realizan la interfaz MetodoPago.
+
+--------------------------------------------------------------------------------------------------------------
+
+Enunciado:
+
+Diseña un sistema para una aplicación de gestión de bibliotecas universitarias que incluye los siguientes elementos:
+
+- La Biblioteca tiene múltiples Departamentos, y si la biblioteca es eliminada, los departamentos también lo son (Composición).
+- Cada Departamento tiene múltiples Profesores, que pueden existir independientemente del departamento (Agregación).
+- Los Profesores pueden tener Libros asociados que pueden prestar a Estudiantes (Asociación).
+- Los Libros pueden ser de diferentes tipos, como LibroTexto o Revista (Generalización).
+- Los Estudiantes dependen de la clase ServicioNotificacion para recibir alertas sobre préstamos de libros (Dependencia).
+-La clase ServicioNotificacion implementa la interfaz Notificacion (Realización).
+
+Crea el diagrama de clases y el código en Python para este sistema.
