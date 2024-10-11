@@ -1,14 +1,15 @@
 from lago import Lago
 
 def main():
-    lago = Lago('Cristal', 'Bagre')
+    tipos_peces = ['bagre', 'bocachico', 'trucha']
+    lago = Lago('Cristal', tipos_peces)
 
     ###---Utilizar metodos del lago
     lago.alimentar()
 
     ###---Intentar alimentar los peces 
     try:
-        lago.__tipo_peces.comer()
+        lago._peces[0].comer()
     except Exception as e:
         print(f"Error {e}")
 
